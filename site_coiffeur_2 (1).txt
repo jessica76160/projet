@@ -1,0 +1,42 @@
+- carte interactive avec la position des différents salons
+	(définir les salons disponibles)
+
+- fiche descriptive de chaque salon :
+	- horaires d'ouverture
+	- services et tarifs(avec la durée de chaque service)
+	- noms des coiffeuses (affectées à un ou plusieurs salons, à une ou plusieurs prestations)
+
+- système de réservation (normalement, le/la client(e) sait pourquoi il/elle vient, il/elle veut une prestation précise):
+	- création de compte (formulaire la 1ère fois) --> login les fois suivantes
+		- en fonction de la localisation :
+			1) choix du salon
+			2) choix de la prestation
+				--> coiffeuses disponibles --> créneaux horaires disponibles
+				--> créneaux horaires disponibles --> coiffeuses disponibles
+
+		- en fonction  de l'horaire choisi :
+			1) choix du créneau horaire
+			2) choix de la prestation (le créneau horaire doit être assez grand pour contenir la prestation souhaitée)
+				--> salons disponibles --> coiffeuses disponibles
+				--> coiffeuses disponibles --> salons disponibles
+
+		- en fonction de la prestation (shampoing, coupe, brushing, coloration, extension...) :
+			1) choix de la prestation
+				--> créneaux horaires disponibles --> salons disponibles --> coiffeuses disponibles
+				--> créneaux horaires disponibles --> coiffeuses disponibles --> salons disponibles
+				--> salons disponibles --> créneaux horaires disponibles --> coiffeuses disponibles
+				--> salons disponibles --> coiffeuses disponibles --> créneaux horaires
+				--> coiffeuses disponibles --> salons disponibles --> créneaux horaires disponibles
+				--> coiffeuses disponibles --> créneaux horaires disponibles --> salons disponibles
+
+		- en fonction de la coiffeuse :
+			1) choix de la coiffeuse
+			2) choix de la prestation
+				--> créneaux horaires disponibles --> salons disponibles
+				--> salons disponibles --> créneaux horaires disponibles
+
+- prépaiement en ligne
+
+- envois de sms : rappels de rendez-vous
+
+- témoignages (avis clients)
